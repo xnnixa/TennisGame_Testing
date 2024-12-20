@@ -93,7 +93,7 @@ public class TennisGameTest {
 		
 		String score = game.getScore();
 		
-		assertEquals("Score incorrect", "player1 wins", score);
+		assertEquals("player1 wins", score);
 	}
 	
 	@Test
@@ -113,7 +113,7 @@ public class TennisGameTest {
 		
 		String score = game.getScore();
 		
-		assertEquals("Score incorrect", "player2 wins", score);
+		assertEquals("player2 wins", score);
 		
 	}
 	
@@ -133,7 +133,7 @@ public class TennisGameTest {
 		
 		String score = game.getScore();
 		
-		assertEquals("Score incorrect", "player2 has advantage", score);
+		assertEquals("player2 has advantage", score);
 	}
 	
 	@Test
@@ -152,7 +152,7 @@ public class TennisGameTest {
 		
 		String score = game.getScore();
 		
-		assertEquals("Score incorrect", "player1 has advantage", score);
+		assertEquals("player1 has advantage", score);
 	}
 	
 }
